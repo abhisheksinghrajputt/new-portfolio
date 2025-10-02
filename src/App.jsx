@@ -5,7 +5,7 @@ import About from "./assets/components/about";
 import Skills from "./assets/components/Skills";
 import Contact from "./assets/components/contact";
 import Footer from "./assets/components/Footer";
-//import Projects from "./assets/components/Projects";
+import Projects from "./assets/components/Projects";
 
 
 function App() {
@@ -17,9 +17,10 @@ function App() {
   <Hero/>
   <About/>
   <Skills/>
+  <Projects/> 
   <Contact/>
   <Footer/>
-  {/* <Projects/> */}
+  
     </>
   )
 }

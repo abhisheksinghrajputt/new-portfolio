@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="md:w-1/2">
           <h2 className="text-xl font-semibold text-green-500 mb-4">Send Me a Message</h2>
           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> {/* <-- IMPORTANT: REPLACE THIS VALUE */}
+            <input type="hidden" name="access_key" value="4f3b73d0-89a3-49c6-9855-eec6b41557b6" /> {/* <-- IMPORTANT: REPLACE THIS VALUE */}
 
             <div className="flex flex-col">
               <label htmlFor="name" className="mb-1 font-semibold">Your Name</label>
